@@ -1,0 +1,151 @@
+body {
+    padding: 0%;
+    margin: 0%;
+}
+
+
+
+
+#header {
+    position: fixed;
+    display: grid;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.26);
+    grid-template-columns: 1fr 1fr ;
+    z-index: 1000;
+
+}
+
+.headerbtn {
+    align-self: center;
+    justify-self: center;
+    font-size: 2.5rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.headerbtn:Hover {
+
+    transform: scaleX(1.1);
+}
+
+#creator {
+    position: relative;
+    background-color: transparent;
+    width: 90%;
+    max-width: 1000px;
+    height: auto;
+    top: 110px;
+    padding: 25px;
+}
+
+.hidden {
+    opacity: 0;
+    pointer-events: none;
+    z-index: -1000;
+}
+
+.hidders{
+    transition: opacity 0.5s ease;
+}
+
+#artist{
+    font-size: 3rem;
+}
+
+/*New div version*/
+#table{
+    display: grid;
+    background-color: transparent;
+    width: 100%;
+    height: auto;
+    grid-template-columns:50% 50%;
+}
+
+.table_cont{
+    font-size: 1.5rem;
+    background-color: transparent;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    overflow-wrap: break-word;
+    height: auto;
+}
+
+.table_cont:nth-last-child(-n+2) {
+    border-bottom: none;
+}
+
+#items{
+    position: relative;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-gap: 1.5%;
+    background-color: transparent;
+    height: auto;
+    width: 95%;
+    max-width: 1000px;
+    top: 120px;
+    justify-self: center;
+}
+
+.item{
+    display: grid;
+    background: url(images/frog.jpg) no-repeat;
+    background-size: contain;
+    background-color: rgb(153, 151, 151);
+    aspect-ratio: 1 / 1;
+    cursor: pointer;
+    width: 100%;
+}
+
+#about {
+    position: absolute;
+    top: 50px;
+    padding: 25px;
+}
+
+#about_text{
+    font-size: 1.5rem;
+}
+
+#market{
+    display: grid;
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    justify-items: center;
+}
+
+#picture{
+    position: relative;
+    background: no-repeat bottom center;
+    background-size:contain;
+    width: 70%;
+    aspect-ratio: 1 / 1;
+    background-color: rgba(36, 36, 36, 0);
+    padding-top: 50px;
+}
+
+#market_des{
+    font-size: 2rem;
+    padding:50px;
+}
+
+#buy_btn {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    cursor: pointer;
+    background: rgb(0, 174, 255);
+    width: 40%;
+    aspect-ratio: 1/.3;
+    border-radius: 10px;
+    font-size: 3rem;
+    transition: background 0.3s ease;
+}
+
+#buy_btn:hover{
+    background: rgb(0, 150, 255);
+
+}
