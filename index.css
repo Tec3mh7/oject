@@ -79,7 +79,7 @@ body {
     grid-template-columns:1fr 1fr;
     grid-gap: 10px;
     background-color: transparent;
-    justify-items: center;
+    margin: 0 auto;
     height: auto;
     width: 95%;
     max-width: 1000px;
