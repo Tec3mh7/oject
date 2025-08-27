@@ -3,9 +3,6 @@ body {
     margin: 0%;
 }
 
-
-
-
 #header {
     position: fixed;
     display: grid;
@@ -91,7 +88,7 @@ body {
 
 .item{
     display: grid;
-    background: url(images/frog.jpg) no-repeat;
+    background: url(images/frog.jpg) no-repeat center center;
     background-size: contain;
     background-color: rgb(153, 151, 151);
     aspect-ratio: 1 / 1;
