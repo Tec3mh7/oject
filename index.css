@@ -77,10 +77,11 @@ body {
     position: relative;
     display: grid;
     grid-template-columns:1fr 1fr;
-    grid-gap: 1.5%;
+    grid-gap: 10px;
     background-color: transparent;
+    justify-items: center;
     height: auto;
-    width: 90%;
+    width: 95%;
     max-width: 1000px;
     top: 120px;
     justify-self: center;
